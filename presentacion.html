@@ -9,6 +9,31 @@
     main { padding: 20px; }
     section { margin-bottom: 20px; }
     h2 { color: #333; }
+    article {
+    background-color: #f9f9f9;  /* Fondo claro */
+    border: 1px solid #ddd;    /* Borde sutil */
+    border-radius: 8px;        /* Bordes redondeados */
+    padding: 15px;             /* Espaciado interno */
+    margin-bottom: 15px;       /* Separación entre artículos */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera */
+    transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    article:hover {
+        transform: scale(1.02);   /* Ligero zoom al pasar el mouse */
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra más fuerte en hover */
+    }
+
+    article h3 {
+        color: #444;   /* Color más elegante para títulos */
+        margin-top: 0;
+    }
+
+    article p {
+        color: #555;   /* Texto más legible */
+        line-height: 1.6;
+    }
+
   </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

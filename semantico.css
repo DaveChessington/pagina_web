@@ -1,0 +1,31 @@
+.title {
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 45px; 
+}
+
+.article{
+    color: navy;
+    font-size: 25px; 
+}
+
+.header {
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px; 
+}
+
+.main {
+    color: darkgreen;
+}
+
+/* Centering images */
+.div {
+    justify-content: center;
+}
+
+.footer {
+    color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
